@@ -27,7 +27,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-pyiron_dataclasses-green.svg)](https://anaconda.org/conda-forge/pyiron_dataclasses) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pyiron_dataclasses.svg)](https://anaconda.org/conda-forge/pyiron_dataclasses) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyiron_dataclasses.svg)](https://anaconda.org/conda-forge/pyiron_dataclasses) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pyiron_dataclasses.svg)](https://anaconda.org/conda-forge/pyiron_dataclasses) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pyiron__dataclasses-green.svg)](https://anaconda.org/conda-forge/pyiron_dataclasses) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pyiron_dataclasses.svg)](https://anaconda.org/conda-forge/pyiron_dataclasses) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyiron_dataclasses.svg)](https://anaconda.org/conda-forge/pyiron_dataclasses) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pyiron_dataclasses.svg)](https://anaconda.org/conda-forge/pyiron_dataclasses) |
 
 Installing pyiron_dataclasses
 =============================
