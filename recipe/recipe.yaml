@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pyiron_dataclasses
-  version: "0.0.2"
+  version: "0.0.4"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pyiron_dataclasses-${{ version }}.tar.gz
-  sha256: c7dfd1e8986d0d6f548808a0e5933dae7ecc04d85bce54932e532036e156c6c2
+  sha256: 4d0889f159dcecdd35353d7ab2fd9eb68c196c73d1bbb6723648a73336a2cd55
 
 build:
   number: 0
@@ -26,7 +26,8 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }},<3.14
-    - numpy >=1.23.5,<=2.2.4
+    - numpy >=1.23.5,<=2.3.2
+    - pint >=0.18,<=0.25
 
 tests:
   - python:
