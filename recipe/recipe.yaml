@@ -11,9 +11,11 @@ package:
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pyiron_dataclasses-${{ version }}.tar.gz
   sha256: 4d0889f159dcecdd35353d7ab2fd9eb68c196c73d1bbb6723648a73336a2cd55
+  patches:
+    - numpy.patch
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -26,7 +28,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }},<3.14
-    - numpy >=1.23.5,<=2.3.2
+    - numpy >=1.23.5,<=2.3.3
     - pint >=0.18,<=0.25
 
 tests:
