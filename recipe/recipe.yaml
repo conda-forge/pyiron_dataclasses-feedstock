@@ -13,7 +13,7 @@ source:
   sha256: 1080ef1eea08089f93e85ed95087cd3b74cd9c2a453c07c3cc5d4f068dcdd639
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -25,7 +25,7 @@ requirements:
     - hatch-vcs
     - pip
   run:
-    - python >=${{ python_min }},<3.14
+    - python >=${{ python_min }},<3.15
     - numpy >=1.23.5,<=2.4.2
     - pint >=0.18,<=0.25.2
 
