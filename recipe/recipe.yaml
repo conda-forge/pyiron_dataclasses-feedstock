@@ -26,8 +26,8 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }},<3.15
-    - numpy >=1.23.5,<=2.4.2
-    - pint >=0.18,<=0.25.2
+    - numpy >=1.23.5,<=2.4.3
+    - pint >=0.18,<=0.25.3
 
 tests:
   - python:
