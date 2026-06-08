@@ -1,0 +1,31 @@
+From fc8867fd5c483d0e045249139ea0d52531607941 Mon Sep 17 00:00:00 2001
+From: Jan Janssen <jan-janssen@users.noreply.github.com>
+Date: Mon, 8 Jun 2026 13:48:56 +0200
+Subject: [PATCH] Fix pyproject (#124)
+
+---
+ pyproject.toml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/pyproject.toml b/pyproject.toml
+index 08be6ab..ea4ea72 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -25,7 +25,7 @@ classifiers = [
+     "Programming Language :: Python :: 3.14",
+ ]
+ dependencies = [
+-    "numpy==2.4.3",
++    "numpy==2.4.6",
+     "pint==0.25.3",
+ ]
+ dynamic = ["version"]
+@@ -37,7 +37,7 @@ Repository = "https://github.com/pyiron/pyiron_dataclasses"
+ 
+ [project.optional-dependencies]
+ convert = [
+-    "h5io_browser==0.2.12",
++    "h5io_browser==0.2.15",
+ ]
+ 
+ [tool.ruff]
