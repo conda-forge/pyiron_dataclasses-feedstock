@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pyiron_dataclasses
-  version: "0.0.13"
+  version: "0.0.14"
 
 package:
   name: ${{ name|lower }}
@@ -10,12 +10,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pyiron_dataclasses-${{ version }}.tar.gz
-  sha256: d349396bb6c184f96d75473c8610a3da0e06ba20661f8d52bba827f401a10da7
+  sha256: a146760d57975a8a68d113388cc9bf769dfc8c7c72db1dd305d8f9e0bd3664e6
   patches:
     - numpy.patch
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
